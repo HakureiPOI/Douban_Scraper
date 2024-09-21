@@ -4,7 +4,7 @@
 
 ## 大致说一下内容 
 
-### **AnimaIndex**
+### 1. **AnimaIndex.ipynb**
 
 获取豆瓣搜索页面中搜索 “动漫” 获得的动漫的序号
 
@@ -29,7 +29,7 @@ window.\__DATA\__["items"] 的内容乍一看看不懂，其实就是搜索结�
 
 因此就有了这个第一部分的程序，先获得所有待爬取动漫页的序号，得到了 **anima.csv** 等文件
 
-### **AnimaComment**
+### 2. **AnimaComment.ipynb**
 
 这个就比较简单了，从动漫页获取动漫的 title 等需要的信息之后，跳转剧评、短评两种评论页面，直接爬取内容就行了
 
@@ -39,7 +39,7 @@ window.\__DATA\__["items"] 的内容乍一看看不懂，其实就是搜索结�
 
 如果能准备多点 IP 应该能解决这个问题
 
-### **Preprocess**
+### 3. **Preprocess.ipynb**
 
 对上述的 **comments.xlsx** 进行简单的处理
 
